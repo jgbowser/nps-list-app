@@ -52,9 +52,9 @@ const displayResults = function(jsonResponse) {
 };
 
 const formatQueryString = function(params) {
-    const queryItems = Object.keys(params)
-      .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(params[key])}`);
-    return queryItems.join('&');
+  const queryItems = Object.keys(params)
+    .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(params[key])}`);
+  return queryItems.join('&');
 };
 
 
